@@ -1,0 +1,19 @@
+.secondary{
+    background-color: #41BD81;
+    font-family: 'Lexend Tera';
+}
+
+/* For small screens (up to 767px) */
+@media (max-width: 767px) {
+    .responsive-image {
+      width: 100%; /* Make the image 100% width on small screens */
+    }
+  }
+  
+  /* For large screens (from 768px and above) */
+  @media (min-width: 768px) {
+    .responsive-image {
+      width: 80%; /* Make the image 80% width on large screens */
+    }
+  }
+  
