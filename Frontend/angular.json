@@ -93,6 +93,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/new-app",
+            "netlifyToken": "nfp_ntNQdA1p9QRmiNEJhofZatLRBP422rs3f6ce",
+            "siteId": ""
+          }
         }
       }
     }
